@@ -1,0 +1,47 @@
+body {
+    font-family: sans-serif;
+}
+
+
+.link-header{
+    font-size: 30px;
+    background-image: linear-gradient(to right,#F7C566 , orange, darkorange );
+    width: 100%;
+    display: inline-block;
+    transition: 0.5s;
+    margin-bottom: 20px;
+}
+
+.link-header:hover{
+    color: red;
+    transition: 0.5s;
+}
+
+.link-nav{
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.link-nav:hover{
+    color:sandybrown;
+    transition: 0.3s;
+}
+
+nav{
+    display: flex ;
+    justify-content: space-around;
+}
+
+h1{
+    color: lightseagreen;
+    text-align: center;
+}
+
+li{
+    font-size: 20px;
+    color: brown;
+}
+
+b{
+    font-size: 25px;
+}
